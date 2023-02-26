@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart component Renders the Cart component correctly 1`] = `
+<div>
+  <div
+    class="wrapper"
+  >
+    <header
+      class="header"
+      data-testid="header-component"
+    >
+      <div
+        class="header__container"
+        data-testid="header-container"
+      >
+        <h2
+          class="header__tag"
+          data-testid="header-tag"
+        >
+          X-course-task/Zaharchenko Anton
+        </h2>
+        <div
+          class="header__actions"
+        >
+          <div
+            class="header__menu mennu"
+            data-testid="header-menu"
+          >
+            <div
+              class="menu__body"
+            >
+              <a
+                class="menu__cart"
+                data-testid="menu-cart"
+                href="/cart"
+              >
+                <img
+                  alt="cart"
+                  src="cart.svg"
+                />
+                <span
+                  id="book-quantity"
+                  style="display: none;"
+                />
+              </a>
+              <a
+                class="menu__button hidden"
+                data-testid="menu-button"
+                href="/"
+              >
+                Sign Out
+              </a>
+              <div
+                class="menu__avatar hidden"
+              >
+                <img
+                  alt="avatar"
+                  data-testid="menu-avatar"
+                  src="avatar.svg"
+                />
+              </div>
+              <p
+                class="menu__user hidden"
+              />
+            </div>
+            <div
+              class="spollers _spoller-init"
+            >
+              <div
+                class="spollers__item"
+              >
+                <button
+                  class="spollers__title "
+                  type="button"
+                >
+                  <div
+                    class="menu__avatar"
+                  >
+                    <img
+                      alt="avatar"
+                      src="avatar.svg"
+                    />
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main
+      class="empty"
+    >
+      <div
+        class="empty__container"
+      >
+        <a
+          class="back-btn "
+          href="/book-list"
+        >
+          <img
+            alt="back-arrow"
+            src="arrow.svg"
+          />
+        </a>
+        <div
+          class="empty__content"
+        >
+          <button
+            class="empty__btn"
+            disabled=""
+          >
+            Purchase
+          </button>
+          <div
+            class="empty__img"
+          >
+            <img
+              alt="cart"
+              src="big-cart.svg"
+            />
+          </div>
+          <p
+            class="empty__text"
+          >
+            Cart is empty
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer
+      class="footer"
+      data-testid="footer-component"
+    >
+      <div
+        class="footer__container"
+        data-testid="footer-container"
+      >
+        <p
+          class="footer__copy"
+          data-testid="footer-copy"
+        >
+          Made in
+           
+          <a
+            data-testid="prometheus-link"
+            href="https://prometheus.org.ua/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Prometheus
+          </a>
+           
+          © 2022
+        </p>
+      </div>
+    </footer>
+  </div>
+</div>
+`;
