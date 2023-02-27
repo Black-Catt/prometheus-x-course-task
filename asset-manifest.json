@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/prometheus-x-course-task/static/css/main.a8ca1cbe.css",
-    "main.js": "/prometheus-x-course-task/static/js/main.65897cc3.js",
+    "main.css": "/prometheus-x-course-task/static/css/main.21b12b84.css",
+    "main.js": "/prometheus-x-course-task/static/js/main.a39f27ef.js",
     "static/media/giphy.gif": "/prometheus-x-course-task/static/media/giphy.7725c6cd341380a10a1c.gif",
     "static/media/imageNotFound.png": "/prometheus-x-course-task/static/media/imageNotFound.298b98203c3825c61303.png",
     "static/media/avatar.svg": "/prometheus-x-course-task/static/media/avatar.6a2b5804c54018c068dd1652078223af.svg",
@@ -11,11 +11,12 @@
     "static/media/hide.svg": "/prometheus-x-course-task/static/media/hide.ca86b0d6a47e9f164588b21915cd4070.svg",
     "index.html": "/prometheus-x-course-task/index.html",
     "static/media/arrow.svg": "/prometheus-x-course-task/static/media/arrow.f62972d37f08f3e869824f61efb6687f.svg",
-    "main.a8ca1cbe.css.map": "/prometheus-x-course-task/static/css/main.a8ca1cbe.css.map",
-    "main.65897cc3.js.map": "/prometheus-x-course-task/static/js/main.65897cc3.js.map"
+    "static/media/bin.svg": "/prometheus-x-course-task/static/media/bin.d3fa87974b5dcdb84e9cb21d96dbd379.svg",
+    "main.21b12b84.css.map": "/prometheus-x-course-task/static/css/main.21b12b84.css.map",
+    "main.a39f27ef.js.map": "/prometheus-x-course-task/static/js/main.a39f27ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8ca1cbe.css",
-    "static/js/main.65897cc3.js"
+    "static/css/main.21b12b84.css",
+    "static/js/main.a39f27ef.js"
   ]
 }
