@@ -832,6 +832,10 @@ h6 {
   line-height: 1.5;
 }
 
+.row-cart {
+  overflow: hidden;
+}
+
 .row-cart__body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -889,6 +893,8 @@ h6 {
 
 .row-cart__cost {
   padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
 }
 .empty {
   padding-top: 3.125rem;
@@ -991,7 +997,9 @@ h6 {
   .row-cart__img {
     display: none;
   }
-
+  .row-cart__count {
+    padding: 0 1.5rem 0 0;
+  }
   .empty__img {
     width: 175px;
     height: 150px;
@@ -1078,4 +1086,7 @@ h6 {
 }
 .back-btn:hover {
   background: rgb(60, 57, 57);
+}
+.bin {
+  cursor: pointer;
 }

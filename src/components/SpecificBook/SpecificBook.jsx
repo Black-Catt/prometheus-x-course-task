@@ -1,4 +1,4 @@
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
 import Header from '../Header/Header';
@@ -28,7 +28,7 @@ const SpecificBook = () => {
   };
   useEffect(() => {
     setTotal(
-      (isNaN(countValue) ? book.price : book.price * countValue).toFixed(2)
+      (isNaN(countValue) ? book.price : book.price * countValue).toFixed(0)
     );
   }, [countValue, book.price]);
 
@@ -39,7 +39,6 @@ const SpecificBook = () => {
         <div data-testid="specific-book" className="book">
           <div className="book__container">
             <button
-              href=""
               className="back-btn"
               onClick={() => navigate(-1)}
               to="book-list"

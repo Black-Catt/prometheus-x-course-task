@@ -4,17 +4,19 @@ import EmptyCart from './EmptyCart';
 
 import useCart from '../../hooks/useCart';
 import useBooks from '../../hooks/useBooks';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import arrowImg from '../../img/specific-book/arrow.svg';
+
+import binImg from '../../img/bin.svg';
 
 const Cart = () => {
   const { imageNotFound } = useBooks();
-  const { clearCart } = useCart();
+  const { clearCart, deleteCartItem } = useCart();
   const navigate = useNavigate();
 
   const cartItems = JSON.parse(localStorage.getItem('books'));
 
-  if (!cartItems) {
+  if (cartItems?.length === 0 || !cartItems) {
     return <EmptyCart />;
   }
   const price = cartItems.reduce((acc, el) => acc + +el.price, 0);
@@ -50,7 +52,15 @@ const Cart = () => {
                     <div className="row-cart__count">
                       {isNaN(book.count) ? 1 : book.count}
                     </div>
-                    <div className="row-cart__cost">{book.price}</div>
+                    <div className="row-cart__cost">
+                      {book.price}$
+                      <img
+                        className="bin"
+                        onClick={() => deleteCartItem(book.title)}
+                        src={binImg}
+                        alt="bin"
+                      />
+                    </div>
                   </div>
                 </div>
               ))}

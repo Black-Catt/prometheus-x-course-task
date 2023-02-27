@@ -63,9 +63,9 @@ describe('SpecificBook', () => {
     const addToCartButton = screen.getByTestId('book-btn');
     fireEvent.click(addToCartButton);
 
-    expect(mockAddToCart).toHaveBeenCalledWith(book, 2, '19.98');
+    expect(mockAddToCart).toHaveBeenCalledWith(book, 2, '20');
 
-    const total = screen.getByText('19.98');
+    const total = screen.getByText('20');
     expect(total).toBeInTheDocument();
 
     const price = screen.getByText(`${book.price}`);
