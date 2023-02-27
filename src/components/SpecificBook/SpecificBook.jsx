@@ -38,13 +38,14 @@ const SpecificBook = () => {
       <main className="page">
         <div data-testid="specific-book" className="book">
           <div className="book__container">
-            <Link
-              className="back-btn "
+            <button
+              href=""
+              className="back-btn"
               onClick={() => navigate(-1)}
               to="book-list"
             >
               <img src={arrowImg} alt="back-arrow" />
-            </Link>
+            </button>
             {
               <div className="book__row">
                 <div className="book__main">

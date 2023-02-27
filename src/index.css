@@ -329,7 +329,6 @@ h6 {
   position: absolute;
   left: 18px;
   top: -4px;
- 
 }
 
 .menu__button {
@@ -1068,10 +1067,11 @@ h6 {
   margin: 0 auto;
 }
 .back-btn {
-  display: inline-block;
   margin-bottom: 15px;
   border-radius: 50%;
   padding: 11px 11px;
+  width: 38px;
+  height: 38px;
   color: white;
   background: #000000;
   transition: all 0.3s ease 0s;

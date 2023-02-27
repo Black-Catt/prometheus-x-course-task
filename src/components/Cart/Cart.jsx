@@ -25,13 +25,13 @@ const Cart = () => {
       <main className="page">
         <div className="cart">
           <div className="cart__container">
-            <Link
+            <button
               className="back-btn "
               onClick={() => navigate(-1)}
               to="book-list"
             >
               <img src={arrowImg} alt="back-arrow" />
-            </Link>
+            </button>
             <div className="cart__rows">
               {cartItems?.map((book, index) => (
                 <div key={index} className="cart__row row-cart">
